@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:styles": "stylelint \"src/**/*.scss\"",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,6 +26,9 @@
     "globals": "^17.6.0",
     "prettier": "^3.8.4",
     "sass": "^1.101.0",
+    "stylelint": "^17.13.0",
+    "stylelint-config-standard-scss": "^17.0.0",
+    "stylelint-scss": "^7.2.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
     "vite": "^8.0.12"
