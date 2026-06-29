@@ -1,73 +1,119 @@
-# React + TypeScript + Vite
+# Design System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Design System développé dans le cadre de mon portfolio GitHub de développeur Front-End et WordPress.
 
-Currently, two official plugins are available:
+## À propos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Je suis développeur Front-End spécialisé dans :
 
-## React Compiler
+* l’intégration d’interfaces web
+* la conception et le développement de Design Systems
+* le développement WordPress
+* le développement de blocs Gutenberg
+* l’industrialisation des projets Front-End
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ce dépôt a pour objectif de démontrer ma capacité à concevoir un Design System moderne, documenté, testé et industrialisé.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Stack technique
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Front-End
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* React
+* TypeScript
+* SCSS
+* Vite
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Documentation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* Storybook
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Qualité
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* ESLint
+* Stylelint
+* Prettier
+
+### Industrialisation
+
+* Docker
+* GitHub Actions
+
+---
+
+## Roadmap
+
+### Foundations
+
+* [x] Design Tokens
+* [x] SCSS Tokens
+* [x] Storybook
+* [ ] Colors
+* [ ] Typography
+* [ ] Spacing
+* [ ] Radius
+* [ ] Shadows
+
+### Components
+
+* [ ] Button
+* [ ] Icon Button
+* [ ] Link
+* [ ] Badge
+* [ ] Alert
+* [ ] Input
+* [ ] Select
+* [ ] Checkbox
+* [ ] Radio
+* [ ] Textarea
+* [ ] Card
+* [ ] Modal
+* [ ] Tabs
+* [ ] Accordion
+* [ ] Table
+
+### Tooling
+
+* [ ] Docker
+* [ ] GitHub Actions
+* [ ] Automated Testing
+* [ ] Accessibility Testing
+
+---
+
+## Portfolio Ecosystem
+
+Ce dépôt fait partie d’un portfolio GitHub composé de plusieurs projets complémentaires :
+
+### Design System
+
+Bibliothèque de composants React documentée avec Storybook.
+
+### Gutenberg Block Library
+
+Bibliothèque de blocs Gutenberg développés avec React et TypeScript.
+
+### WordPress Theme
+
+Thème WordPress moderne basé sur les composants du Design System.
+
+### Portfolio Website
+
+Site vitrine présentant les différents projets et réalisations.
+
+---
+
+## Objectifs
+
+* Créer un Design System réutilisable
+* Mettre en place une documentation professionnelle
+* Industrialiser le développement Front-End
+* Démontrer mes compétences en développement WordPress et Gutenberg
+* Constituer un portfolio technique cohérent
+
+---
+
+## Licence
+
+MIT
