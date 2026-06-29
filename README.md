@@ -1,51 +1,76 @@
 # Design System
 
-Design System développé dans le cadre de mon portfolio GitHub de développeur Front-End et WordPress.
+> A modern Design System built with **React**, **TypeScript**, **SCSS** and **Storybook**.
 
-## À propos
+## About
 
-Je suis développeur Front-End spécialisé dans :
+This project is part of my GitHub portfolio as a **Front-End Integrator**, **Design System Developer** and **WordPress Developer**.
 
-* l’intégration d’interfaces web
-* la conception et le développement de Design Systems
-* le développement WordPress
-* le développement de blocs Gutenberg
-* l’industrialisation des projets Front-End
+Its purpose is to demonstrate my ability to design, develop and maintain a scalable Design System following modern Front-End engineering practices.
 
-Ce dépôt a pour objectif de démontrer ma capacité à concevoir un Design System moderne, documenté, testé et industrialisé.
+The project focuses on:
+
+* Design Tokens
+* Reusable UI Components
+* Accessibility (WCAG)
+* Storybook Documentation
+* Automated Testing
+* CI/CD
+* Developer Experience
 
 ---
 
-## Stack technique
+## Tech Stack
 
 ### Front-End
 
-* React
+* React 19
 * TypeScript
 * SCSS
 * Vite
 
 ### Documentation
 
-* Storybook
+* Storybook 10
 
-### Qualité
+### Code Quality
 
 * ESLint
-* Stylelint
 * Prettier
+* Stylelint
 
-### Industrialisation
+### Testing
+
+* Vitest
+* Playwright
+
+### DevOps
 
 * Docker
 * GitHub Actions
 
 ---
 
+## Project Structure
+
+```text
+src/
+├── components/
+├── foundations/
+├── hooks/
+├── styles/
+├── tokens/
+├── types/
+└── utils/
+```
+
+---
+
 ## Roadmap
 
-### Foundations
+### Phase 1 — Foundations
 
+* [x] Project setup
 * [x] Design Tokens
 * [x] SCSS Tokens
 * [x] Storybook
@@ -55,7 +80,7 @@ Ce dépôt a pour objectif de démontrer ma capacité à concevoir un Design Sys
 * [ ] Radius
 * [ ] Shadows
 
-### Components
+### Phase 2 — Components
 
 * [ ] Button
 * [ ] Icon Button
@@ -63,57 +88,47 @@ Ce dépôt a pour objectif de démontrer ma capacité à concevoir un Design Sys
 * [ ] Badge
 * [ ] Alert
 * [ ] Input
-* [ ] Select
 * [ ] Checkbox
 * [ ] Radio
+* [ ] Select
 * [ ] Textarea
 * [ ] Card
-* [ ] Modal
 * [ ] Tabs
 * [ ] Accordion
+* [ ] Modal
 * [ ] Table
 
-### Tooling
+### Phase 3 — Engineering
 
+* [ ] Unit Testing
+* [ ] Accessibility Testing
 * [ ] Docker
 * [ ] GitHub Actions
-* [ ] Automated Testing
-* [ ] Accessibility Testing
+* [ ] Release Workflow
 
 ---
 
-## Portfolio Ecosystem
+## Portfolio
 
-Ce dépôt fait partie d’un portfolio GitHub composé de plusieurs projets complémentaires :
+This repository is one of several projects composing my GitHub portfolio.
 
-### Design System
+* 🎨 Design System
+* 🧩 Gutenberg Block Library
+* 🌐 WordPress Theme
+* 💼 Portfolio Website
 
-Bibliothèque de composants React documentée avec Storybook.
-
-### Gutenberg Block Library
-
-Bibliothèque de blocs Gutenberg développés avec React et TypeScript.
-
-### WordPress Theme
-
-Thème WordPress moderne basé sur les composants du Design System.
-
-### Portfolio Website
-
-Site vitrine présentant les différents projets et réalisations.
+Together, these projects demonstrate my expertise in building maintainable Front-End architectures and modern WordPress solutions.
 
 ---
 
-## Objectifs
+## Current Status
 
-* Créer un Design System réutilisable
-* Mettre en place une documentation professionnelle
-* Industrialiser le développement Front-End
-* Démontrer mes compétences en développement WordPress et Gutenberg
-* Constituer un portfolio technique cohérent
+🚧 Active development
+
+The Design System is currently under construction following an incremental and production-oriented approach.
 
 ---
 
-## Licence
+## License
 
 MIT
